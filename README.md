@@ -17,13 +17,25 @@ bash setup_autodl_zsh.sh
 国内（镜像）：
 
 ```bash
-git clone https://ghfast.top/https://github.com/luzedong/setup_autodl_zsh.git && cd setup_autodl_zsh && bash setup_autodl_zsh.sh
+curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/luzedong/setup_autodl_zsh/main/setup_autodl_zsh.sh | bash
 ```
 
 国外（GitHub）：
 
 ```bash
-git clone https://github.com/luzedong/setup_autodl_zsh.git && cd setup_autodl_zsh && bash setup_autodl_zsh.sh
+curl -fsSL https://raw.githubusercontent.com/luzedong/setup_autodl_zsh/main/setup_autodl_zsh.sh | bash
+```
+
+国内（镜像，wget）：
+
+```bash
+wget -qO- https://ghfast.top/https://raw.githubusercontent.com/luzedong/setup_autodl_zsh/main/setup_autodl_zsh.sh | bash
+```
+
+国外（GitHub，wget）：
+
+```bash
+wget -qO- https://raw.githubusercontent.com/luzedong/setup_autodl_zsh/main/setup_autodl_zsh.sh | bash
 ```
 
 脚本默认会：
