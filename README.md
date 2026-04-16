@@ -12,6 +12,20 @@ AutoDL 一键初始化脚本：配置 `zsh/oh-my-zsh`、缓存与镜像加速、
 bash setup_autodl_zsh.sh
 ```
 
+## 一键下载并运行
+
+国内（镜像）：
+
+```bash
+git clone https://ghfast.top/https://github.com/luzedong/setup_autodl_zsh.git && cd setup_autodl_zsh && bash setup_autodl_zsh.sh
+```
+
+国外（GitHub）：
+
+```bash
+git clone https://github.com/luzedong/setup_autodl_zsh.git && cd setup_autodl_zsh && bash setup_autodl_zsh.sh
+```
+
 脚本默认会：
 
 - 把常见缓存与环境目录重定向到 `/root/autodl-tmp`
